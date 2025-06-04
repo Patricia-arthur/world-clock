@@ -1,6 +1,6 @@
 body {
-    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
-    font-family: sans-serif;   
+    background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+     font-family: sans-serif;   
 }
 
 h1 {
@@ -11,7 +11,8 @@ h1 {
 
 h2 {
     margin: 0 0 15px;
-    font-size: 28px;
+    font-size: 38px;
+    font-weight: bold;
 }
 select {
     display: block;
@@ -21,14 +22,15 @@ select {
     font-size: 18px;
 }
 .world-clock {
-    max-width: 500px;
+    max-width: 600px;
     margin: 60px auto;
     padding: 60px;
-    background: white;
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .city {
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
@@ -39,13 +41,13 @@ select {
     border: none;
 }
 .time {
-    font-size: 36px;
-    font-weight: normal;
+    font-size: 48px;
+    font-weight: bold;
 }
 .time small {
-    font-size: 18px;
+    font-size: 24px;
     vertical-align: middle;
-    line-height: 36px;
+    line-height: 48px;
 }
 .date {
     opacity: 0.7;
